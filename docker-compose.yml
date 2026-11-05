@@ -1,0 +1,15 @@
+services:
+  web:
+    build: .
+    container_name: student_management_app
+    ports:
+      - "5000:5000"
+    volumes:
+      # Persistent volume for SQLite database storage
+      - student_data:/app/data
+    restart: unless-stopped
+
+volumes:
+  student_data:
+    driver: local
+

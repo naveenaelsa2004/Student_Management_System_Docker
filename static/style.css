@@ -1,0 +1,63 @@
+/* Custom CSS for Student Management System */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #333333;
+    min-height: 100vh;
+}
+
+/* Navbar styling */
+.navbar-brand {
+    font-size: 1.25rem;
+    letter-spacing: -0.2px;
+}
+
+/* Card Enhancements */
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-header {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+
+/* Table Enhancements */
+.table thead th {
+    font-size: 0.825rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    color: #6c757d;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.table tbody tr {
+    transition: background-color 0.15s ease-in-out;
+}
+
+.table tbody td {
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+/* Form Controls */
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+    border-color: #86b7fe;
+}
+
+/* Button transitions */
+.btn {
+    border-radius: 6px;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Badges */
+.badge {
+    font-weight: 500;
+    font-size: 0.85rem;
+}
+
